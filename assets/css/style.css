@@ -59,6 +59,9 @@ a {
 
 .container2 {
     padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     width: 100%;
 }
 
@@ -66,4 +69,29 @@ a {
 
 nav a svg {
     padding-right: 400px;
+}
+
+.fa-solid,
+h5 {
+    display: inline-block;
+}
+
+.container-articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.title-c-articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.relative {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
 }
