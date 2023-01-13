@@ -95,3 +95,57 @@ h5 {
     flex-direction: row;
     width: 30%;
 }
+
+.container-title-colecction {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 0% 10% 0% 10%;
+    border-bottom: 2px solid gray;
+}
+
+/* stick image with autor name */
+.img-autor {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.text-gray {
+    color: gray;
+}
+
+
+
+/* PART RIGHT BOTTOM */
+
+.part-top {
+    border-bottom: 1.5px solid gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.border-gray {
+    display: inline-block;
+    border: 1px solid gray;
+}
+
+
+/* union text img, di parte left bottom */
+.union-text-img {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* part together bottom */
+
+
+.container-left-right {
+    display: flex;
+    flex-direction: row;
+}
