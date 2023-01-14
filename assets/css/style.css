@@ -58,7 +58,7 @@ a {
 
 
 .container2 {
-    padding-top: 70px;
+    padding: 70px 10% 0% 10%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -118,6 +118,15 @@ h5 {
 
 
 
+
+/* PART LEFT BOTTOM */
+
+.part-img-left>img {
+
+    width: 100%;
+
+}
+
 /* PART RIGHT BOTTOM */
 
 .part-top {
@@ -148,4 +157,18 @@ h5 {
 .container-left-right {
     display: flex;
     flex-direction: row;
+    padding: 0% 10% 0% 10%;
+
+}
+
+
+
+/* pparte sinistra dellla pagina in bottom */
+
+.part-text-left {
+    width: 65%;
+}
+
+.part-img-left {
+    width: 35%;
 }
