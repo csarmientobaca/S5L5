@@ -15,6 +15,8 @@ body {
 
 .b-Basso {
     border-bottom: 2px solid black;
+    display: flex;
+
 }
 
 
@@ -114,16 +116,23 @@ h5 {
 
 .text-gray {
     color: gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
-
+.text-star {
+    display: flex;
+    align-items: center;
+}
 
 
 /* PART LEFT BOTTOM */
 
 .part-img-left>img {
 
-    width: 100%;
+    width: 80%;
 
 }
 
@@ -154,10 +163,13 @@ h5 {
 /* part together bottom */
 
 
-.container-left-right {
+.containerBottom-left-right {
     display: flex;
     flex-direction: row;
     padding: 0% 10% 0% 10%;
+    margin-top: 3rem;
+    justify-content: space-between;
+
 
 }
 
@@ -171,4 +183,61 @@ h5 {
 
 .part-img-left {
     width: 35%;
+}
+
+
+/* make image autor a bubble  */
+.img-autor>img {
+    border-radius: 20px;
+}
+
+
+.container-colum-right {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+
+
+.container-colum-left {
+    width: 60%;
+}
+
+
+
+
+.part-top>.row-colection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.part-bottom {
+    margin-top: 2.5rem;
+}
+
+
+.part-bottom>ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+
+.part-bottom>ul>li {
+    padding: .2rem;
+}
+
+.border-gray {
+    display: inline-block;
+    border: 1px solid gray;
+    margin: 0.5rem;
+    padding: 0.8rem 1.2rem 0.8rem 1.2rem;
+}
+
+
+
+.bg-gray-circle {
+    background: #8080801f;
+    border-radius: 10px;
+    padding: 0.15rem 0.5rem;
 }
