@@ -1,4 +1,82 @@
+/* top fixed 2.2  */
+
+
+.container-border-bottom {
+    border-bottom: 1px solid rgb(41, 41, 41);
+
+    padding-bottom: 0.25rem;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+
+}
+
+.top-left-right {
+    display: flex;
+    justify-content: space-between;
+
+
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+
+    flex-flow: row nowrap;
+    position: relative;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+
+.top-left-right>a {
+    margin-left: 5%;
+}
+
+.nav-top {
+    display: flex;
+    align-items: center;
+    padding-right: 5%;
+
+
+
+}
+
+.nav-bar {
+    display: flex;
+
+    flex-direction: row;
+
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* PARTE HEADER */
+
+
+.container-m>svg {
+    padding-top: 23px;
+
+}
+
 
 body {
     margin: 0px;
@@ -11,11 +89,15 @@ body {
 .fixed {
     position: fixed;
     width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .b-Basso {
     border-bottom: 2px solid black;
     display: flex;
+    padding: 0px 0px 0px 10%;
 
 }
 
@@ -60,7 +142,7 @@ a {
 
 
 .container2 {
-    padding: 70px 10% 0% 10%;
+    padding: 100px 0% 0% 0%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
