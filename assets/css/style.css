@@ -1,4 +1,27 @@
 /* top fixed 2.2  */
+.absolute1 {
+    position: relative;
+    width: 32px;
+
+}
+
+.absolute1>p {
+    position: absolute;
+    top: 0px;
+    font-weight: 600;
+    font-size: xx-large;
+    margin: 0 0px 0 0;
+    color: rgba(179, 179, 179, 0.652);
+
+}
+
+.box-img-text {
+    padding-left: 24px;
+
+}
+
+
+
 
 
 .container-border-bottom {
@@ -80,6 +103,7 @@
 
 body {
     margin: 0px;
+    font-family: robot;
 }
 
 .yellow {
@@ -177,7 +201,7 @@ h5 {
 .relative {
     display: flex;
     flex-direction: row;
-    width: 30%;
+    width: 29%;
 }
 
 .container-title-colecction {
@@ -322,4 +346,11 @@ h5 {
     background: #8080801f;
     border-radius: 10px;
     padding: 0.15rem 0.5rem;
+}
+
+.button-black {
+    padding: .5rem;
+    border-radius: 15px;
+    color: white;
+    background-color: #191919;
 }
