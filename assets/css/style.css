@@ -83,10 +83,15 @@
 
 
 
+.flex {
+    display: flex;
+}
 
 
-
-
+.container2>h1 {
+    font-size: xxx-large;
+    font-weight: 900;
+}
 
 
 
@@ -295,12 +300,14 @@ h5 {
 /* make image autor a bubble  */
 .img-autor>img {
     border-radius: 20px;
+    width: 20px;
+    padding-right: 5px;
 }
 
 
 .container-colum-right {
     display: flex;
-    width: 30%;
+    width: 40%;
     flex-direction: column;
 }
 
@@ -308,9 +315,6 @@ h5 {
 .container-colum-left {
     width: 60%;
 }
-
-
-
 
 .part-top>.row-colection {
     display: flex;
